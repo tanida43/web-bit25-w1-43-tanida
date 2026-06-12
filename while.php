@@ -9,14 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <title>FOR LOOP</title>
+    <title>WHILE LOOP</title>
 </head>
 <body>
     
     <div class="container">
     <h1>งานที่ 1 ธนิดา บุญท้าวแก้ว BIT.2/5 เลขที่ 41</h1>
 
-    <a href="while.php">While Loop</a>
+    <a href="index.php">For Loop</a>
 
     <form action="">
         <div class="b1">
@@ -35,8 +35,13 @@
 
             echo "สูตรคูณแม่ " . $num . "<br>";
 
-            for($i = 1; $i <= 12; $i++){
+            $i = 1;
+
+            while($i <= 12){
+
                 echo $num . " x " .$i . " = " . ($num * $i) ."<br>";
+
+                $i++;
             }
             
             echo "</div>";
